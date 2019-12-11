@@ -32,7 +32,7 @@ This document is ordered by major aspects of the project.
 
 ## 2. Spring
 
-https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+* Tutorial : [Deploying Spring boot apps to Heroku](https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku)
 
 
 ## Miscellaneous
