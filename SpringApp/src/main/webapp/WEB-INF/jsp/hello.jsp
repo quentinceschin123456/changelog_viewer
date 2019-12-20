@@ -30,6 +30,18 @@
 				<h2>QACTA PROJECT</h2>
 			</div>
 		</header>
-		TETS
+		  <form action="/search" method="post" class="form-repo-select"> 
+        <div class="form-repo-select">
+            <label for="nameRepo">Enter the repo name: </label> 
+            <input type="text" name="nameRepo" id="nameRepo" required> 
+        </div>
+        <div style="display:none;" class="form-repo-select">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required>
+        </div> 
+            <div class="form-repo-select"> 
+            <input type="submit" value="Search"> 
+        </div> 
+    </form>
 	</body>
 </html>

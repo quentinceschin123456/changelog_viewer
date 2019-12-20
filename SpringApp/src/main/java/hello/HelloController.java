@@ -12,4 +12,9 @@ public class HelloController {
 	public String index() {
 		return "hello"; // Grâce à "application.property", "return hello" pointe sur src/main/webapp/web-inf/jsp/hello.jsp
 	}
+	
+	@RequestMapping("/search")
+	public String HistoricDisplay() {
+		return "historic";
+	}
 }
