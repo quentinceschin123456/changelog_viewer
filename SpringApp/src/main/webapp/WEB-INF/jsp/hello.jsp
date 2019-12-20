@@ -30,15 +30,19 @@
 				<h2>QACTA PROJECT</h2>
 			</div>
 		</header>
-		  <form action="/search" method="post" class="form-repo-select"> 
+		  <form action="/search" method="post" class="form-repo-select" modelAttribute="gitcontroller"> 
         <div class="form-repo-select">
-            <label for="nameRepo">Enter the repo name: </label> 
-            <input type="text" name="nameRepo" id="nameRepo" required> 
+            <label for="nameRepo" path="name">Enter the repo name: </label> 
+            <input type="text" name="nameRepo" id="nameRepo" path="nomRepo" required> 
         </div>
-        <div style="display:none;" class="form-repo-select">
-            <label for="email">Enter your email: </label>
-            <input type="email" name="email" id="email" required>
-        </div> 
+       <div class="form-repo-select">
+            <label for="possRepo">Enter the repo owner's name: </label> 
+            <input type="text" name="possRepo" id="possRepo" path="possesseurRepo" required> 
+        </div>
+        <div class="form-repo-select">
+            <label for="shaRepo">Enter the sha: </label> 
+            <input type="text" name="shaRepo" id="shaRepo" path="shaRepo"> 
+        </div>
             <div class="form-repo-select"> 
             <input type="submit" value="Search"> 
         </div> 
